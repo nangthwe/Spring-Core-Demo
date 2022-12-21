@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    ">
+ 
+    <bean id="emp1" class="example.spring.Employee">
+        <property name="eid" value="102"/>
+        <property name="ename" value="Jennie"/>
+        <property name="eaddress" value="Thazin Road"/>
+    </bean>
+    
+    <bean id="emp2" class="example.spring.Employee">
+        <property name="eid" value="103"/>
+        <property name="ename" value="Jack"/>
+        <property name="eaddress" value="Thazin Road"/>
+    </bean>
+    
+</beans>
+ 
